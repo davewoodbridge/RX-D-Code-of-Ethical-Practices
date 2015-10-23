@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.agameoftwohalves.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     
-    <name>Code of Ethical Practices</name>
-    <description>Code of Ethical Practices</description>
+    <name>RX&D Code of Ethical Practices</name>
+    <description>RX&D Code of Ethical Practices</description>
     <author email="dave@" href="http://www.agameoftwohalves.com">Publissimo</author>
 
     <preference name="phonegap-version" value="3.3.0" />
