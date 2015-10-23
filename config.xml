@@ -26,15 +26,15 @@
 
 	<icon src="http://codeapp.publissimo.ca/wp-content/themes/codeapp/images/icon_toc.png" />
 	
-    <icon src="res/icons/ios/Icon.png" gap:platform="ios" width="57" height="57" />
-    <icon src="res/icons/ios/Icon@2x.png" gap:platform="ios" width="114" height="114" />    
-    <icon src="res/icons/ios/Icon-72.png" gap:platform="ios" width="72" height="72" />
-    <icon src="res/icons/ios/Icon-72@2x.png" gap:platform="ios" width="144" height="144" />
+    <icon src="http://codeapp.publissimo.ca/wp-content/themes/codeapp/images/icon_toc.png" gap:platform="ios" width="57" height="57" />
+    <icon src="http://codeapp.publissimo.ca/wp-content/themes/codeapp/images/icon_toc.png" gap:platform="ios" width="114" height="114" />    
+    <icon src="http://codeapp.publissimo.ca/wp-content/themes/codeapp/images/icon_toc.png" gap:platform="ios" width="72" height="72" />
+    <icon src="http://codeapp.publissimo.ca/wp-content/themes/codeapp/images/icon_toc.png" gap:platform="ios" width="144" height="144" />
 
-    <icon src="res/icons/android/drawable-ldpi/Icon.png" gap:platform="android" gap:density="ldpi" />
-    <icon src="res/icons/android/drawable-mdpi/Icon.png" gap:platform="android" gap:density="mdpi" />
-    <icon src="res/icons/android/drawable-hdpi/Icon.png" gap:platform="android" gap:density="hdpi" />
-    <icon src="res/icons/android/drawable-xdpi/Icon.png" gap:platform="android" gap:density="xhdpi" />
+    <icon src="http://codeapp.publissimo.ca/wp-content/themes/codeapp/images/icon_toc.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="http://codeapp.publissimo.ca/wp-content/themes/codeapp/images/icon_toc.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="http://codeapp.publissimo.ca/wp-content/themes/codeapp/images/icon_toc.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="http://codeapp.publissimo.ca/wp-content/themes/codeapp/images/icon_toc.png" gap:platform="android" gap:density="xhdpi" />
 	
     <gap:splash src="splash.png" />
     
