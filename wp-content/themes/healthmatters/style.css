@@ -1,0 +1,323 @@
+/* CSS Document *//*
+
+Theme Name: Health Matters
+Theme URI: http://davewoodbridge.ca
+Version: 1.0
+Author: Dave Woodbridge
+
+*/
+
+/* Fonts */
+
+.hidden_text {
+    border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+body, input, textarea, table, td {
+	font-family: "Open Sans", trebuchet, sans-serif;
+	color: #000;
+	font-size: 18px;
+	line-height: 28px;
+}
+a, a:visited {
+	color: #999;
+}
+a:hover {
+	text-decoration: none !important;
+}
+h1, h1 a {
+	font-size: 20px;
+	color: #007cc3;
+	text-decoration: none;
+}
+h1 a:hover {
+	text-decoration: underline;
+}
+h1.site-title a, h1.site-title a:visited, h1.site-title a:hover {	
+	color: #007cc3;
+	font-weight: 800;
+}
+h1.site-title {
+	margin-bottom: 0;
+}
+
+h2, h2 a {
+	font-size: 14px;
+	font-weight: 700;
+	color: #007cc3;
+}
+h2.site-description {
+	margin-top: 0;
+	line-height: 10px;
+}
+
+/* structure */
+
+body {
+	background: #fff;
+	margin: 0;
+}
+div#wpadminbar {
+	position: fixed !important;
+}
+
+header#masthead {
+	padding: 0 5%;
+	background: url('images/bg_rainbox.jpg') no-repeat left bottom #caebfc;
+	background-size: contain;
+	position: fixed;
+	top: 0px;
+	width: 90%;
+	padding-top: 20px;
+	height: 80px;
+	z-index: 10;
+}
+.logged-in header#masthead {
+	top: 32px;
+}
+hgroup {
+	margin-left: 35px;
+}
+div#main {
+	margin-top: 86px;
+	padding: 30px 5%;
+}
+a.menu {
+	position: fixed;
+	top: 72px;
+	left: 11px;
+	text-indent: -99999px;
+	background: url('images/bg_menu.png') no-repeat 0 0 #fff;
+	width: 30px;
+	height: 26px;
+	display: block;
+	border: 1px solid #f1f1f1;
+}
+
+#navigation {
+	height: 100%;
+	width: 90%;
+	padding: 0;
+	position: fixed;
+	left: -100%;
+	background: rgba(255,255,255,.95);
+	top: 132px;
+	overflow: hidden;
+	border-right: 1px solid #ccc;
+	box-shadow: 0px 3px 3px 2px #aaa;
+}
+ul#toc {
+	position: absolute;
+	top: 145px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding-left: 0;
+}
+li.single_toc {
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	list-style: none;
+	position: relative;
+	padding-left: 17%;
+	padding-right: 5%
+}
+li.single_toc:first-child {
+	margin-top: 30px;
+}
+li.single_toc:last-child {
+	margin-bottom: 30px;
+}
+li.single_toc span {
+	width: 10%;
+	height: 30px;
+	float: left;
+	position: absolute;
+	left: 5%;
+}
+#toc a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Language */
+
+.lang_toggle {
+	width: 100%;
+	display: inline-block;
+}
+
+a.change_lang {
+	font-size: 12px;
+	text-decoration: none;
+	border: 1px solid;
+	padding: 8px;
+	float: right;
+	margin-top: 19px;
+	margin-right: 15px;
+	background: #fff;
+}
+
+/* Search bar */
+
+.searchbar {
+	width: 100%;
+	height: 80px;
+	background: #cb4067;
+	margin-top: 12px;
+}
+label.screen-reader-text {
+	background: url('images/icon_search.png') no-repeat 0 0 transparent;
+	text-indent: -999999px;
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-left: 30px;
+	background-size: contain;
+	margin-top: 20px;
+}
+input#s {
+	margin-top: 24px;
+	margin-left: 13px;
+	float: left;
+}
+input#searchsubmit {
+	background: #fff;
+	box-shadow: none;
+	border: 1px solid;
+	font-size: 10px;
+	text-transform: uppercase;
+	float: left;
+	margin-top: 24px;
+	margin-left: 10px;
+	line-height: 30px;
+}
+
+/* section tax page */
+
+header.section-header {
+	margin-top: 6px;
+	width: 100%;
+	display: inline-block;
+	margin-left: -5%;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-bottom: 17px;
+	height: 99px;
+}
+span.code_chapter {
+	font-weight: normal;
+	font-size: 90px;
+	font-style: italic;
+	font-family: times;
+	position: absolute;
+	right: 5%;
+	line-height: 52px;
+}
+h1.section-title, h1.section-title a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+
+h2.section-title {
+	color: #000;
+	font-size: 18px;
+	padding-left: 40px;
+}
+span.section_code_chapter {
+	position: absolute;
+	left: 5%;
+	width: 50px;
+	z-index: -1;
+}
+
+h3.subsection-title {
+	margin-left: 40px;
+	font-size: 16px;
+	float: left;
+	margin: 1px 10px -1px 40px;
+}
+.section-content {
+	margin-left: 40px;
+}
+.no_chapter_number .section-content {
+	margin-left: 0;
+}
+.no_chapter_number h2.section-title {
+	padding-left: 0;
+}
+/* Footnotes */
+a.fn-ref-mark {
+	text-decoration: none;
+}
+sup {
+	background: #caebfc;
+	border-radius: 10px;
+	color: darkblue;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 0 6px;
+	margin: 4px 1px 4px 6px;
+}
+div#footnote-list {
+	background: #f1f1f1;
+	padding: 15px;
+	margin-left: -40px;
+	font-size: 15px;
+	line-height: 22px;
+	color: #f1f1f1;
+}
+div#footnote-list span, div#footnote-list ol {
+	color: #000;
+}
+div#footnote-list ol {
+	padding-left: 20px;
+}
+#footnotediv {
+	padding: 15px;
+}
+.footnote_close {
+	display: none;
+}
+span.nav-previous {
+	float: left;
+}
+span.nav-next {
+	float: right;
+	position: absolute;
+	right: 0;
+}
+.nav-single .meta-nav {
+	display: none;
+}
+.nav-single a {
+	font-size: 14px;
+	text-transform: uppercase;
+	width: 40%;
+	display: block;
+	text-decoration: none;
+	line-height: 18px;
+	margin-top: 20px;
+	border: 1px solid;
+	padding: 2%;
+	margin-bottom: 20px;
+}
+
+/* Search */
+
+h2.search_title a {
+	padding-left: 55px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
