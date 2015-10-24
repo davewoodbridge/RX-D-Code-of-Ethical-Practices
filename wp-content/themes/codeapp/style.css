@@ -656,7 +656,7 @@ h2.search_title a {
 .search-results h2.search_title a {
 	padding-left: 0;
 }
-@media only screen and (max-width: 480px) {
+
 
 	#header_logo img {
 		width: 100%;
@@ -685,4 +685,3 @@ h2.search_title a {
 		font-size: 16px;
 	}
 	
-}
