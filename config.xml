@@ -8,6 +8,5 @@
 	</author>
 	<content src="index.php" />
 	<access origin="*" />
+    <icon src="res/icon.png" />
 </widget>
-
-<icon src="http://codeapp.publissimo.ca/wp-content/themes/codeapp/images/icon_toc.png" platform="ios" width="57" height="57" density="mdpi" />
