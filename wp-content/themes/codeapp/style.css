@@ -7,7 +7,7 @@ Author: Dave Woodbridge
 
 */
 html, #navigation {
-	min-width: 480px;
+	mmin-width: 480px;
 }
 /* Fonts */
 
@@ -73,7 +73,7 @@ input {
 html, body {
 }
 body {
-	min-width: 480px;
+	mmin-width: 480px;
 	background: #fff;
 	margin: 0;
 }
@@ -153,17 +153,16 @@ ul#toc {
 	padding-bottom: 50px;
 }
 li.single_toc {
-	height: auto;
-	line-height: 30px;
-	margin-bottom: 10px;
-	list-style: none;
-	position: relative;
-	padding-left: 18%;
-	padding-right: 18px;
-	width: 82%;
-	display: inline-block;
-	float: left;
-	margin-bottom: 15px;
+    display: inline-block;
+    float: left;
+    height: auto;
+    line-height: 30px;
+    list-style: outside none none;
+    margin-bottom: 15px;
+    padding-left: 8%;
+    padding-right: 0;
+    position: relative;
+    width: 90%;
 }
 li.single_toc:first-child {
 	margin-top: 30px;
@@ -176,7 +175,7 @@ li.single_toc span {
 	height: 100%;
 	float: left;
 	position: absolute;
-	left: 5%;
+	left: 0%;
 }
 li.single_toc span.tocnumber {
 	position: relative;
@@ -656,4 +655,34 @@ h2.search_title a {
 }
 .search-results h2.search_title a {
 	padding-left: 0;
+}
+@media only screen and (max-width: 480px) {
+
+	#header_logo img {
+		width: 100%;
+	}	
+	#buttons .btn_small {
+		max-width: 20%;
+	}
+	h1.site-title a, h1.site-title a:visited, h1.site-title a:hover {
+		display: block;
+		font-size: 18px;
+		line-height: 15px;
+		padding-top: 13px;
+	}
+	#buttons .btn_small.button_toc {
+		background-position: center 2px;
+	}
+	label.screen-reader-text {
+		height: 20px;
+		width: 20px;
+		margin-top: 19px;
+	}
+	input#s {
+		max-width: 50%;
+	}
+	#toc a {
+		font-size: 16px;
+	}
+	
 }

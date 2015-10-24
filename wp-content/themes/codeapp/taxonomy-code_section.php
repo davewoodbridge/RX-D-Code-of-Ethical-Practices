@@ -130,23 +130,26 @@ get_header();
 		);		
 		$category_id = $top_level->term_id;
 		$p=0;
-		foreach($root_categories as $cat_id) {
-			if($cat_id->term_id == $category_id) {
-				$next_cat = get_term_link($root_categories[$p + 1]->slug, 'code_section');
-				$prev_cat = get_term_link($root_categories[$p - 1]->slug, 'code_section');	
+		if($root_categories) {
+			foreach($root_categories as $cat_id) {
+				if($cat_id->term_id == $category_id) {
+					$next_cat = get_term_link($root_categories[$p + 1]->slug, 'code_section');
+					$prev_cat = get_term_link($root_categories[$p - 1]->slug, 'code_section');	
+				}
+				$p++;
 			}
-			$p++;
 		}
+
 		
         ?>
-        
+	     
     	<span class="nav_prev">
-        	<?php if($prev_cat) { ?>
+        	<?php if($prev_cat && !is_object($prev_cat)) { ?>
 	        	<a href="<?php echo $prev_cat; ?>" class="nav_prev_link">&laquo;</a>
             <?php } ?>
         </span>
     	<span class="nav_next">
-	    	<?php if($next_cat) { ?>        
+	    	<?php if($next_cat && !is_object($next_cat)) { ?>        
 	        	<a href="<?php echo $next_cat; ?>" class="nav_next_link">&raquo;</a>
             <?php } ?>
         </span>        

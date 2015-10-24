@@ -16,11 +16,20 @@
 wp_footer(); ?>
 </body>
 
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.mousewheel.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.jscrollpane.min.js"></script>
 
 
 <script>
+jQuery(window).resize( function() {
+		console.log('moving');
+	if(jQuery(window).width() < 480) {
+		console.log('yep');
+		jQuery('#buttons .button_toc').text('TOC');
+		jQuery('#buttons .button_fav').text('FAV');
+	} else {
+		jQuery('#buttons .button_toc').text('Table of Contents');
+		jQuery('#buttons .button_fav').text('Favourites');
+	}			
+});
 function add_this_fav(post_id) {
 	jQuery('#tab_fav').load(document.URL +  ' .wpfp-span');	
 }
@@ -53,20 +62,15 @@ jQuery(document).ready( function() {
 			jQuery(this).next('.title_footnote_content').fadeOut(700);
 		} 
 	);
-	
+	if(jQuery(window).width() < 480) {
+		console.log('yep');
+		jQuery('#buttons .button_toc').text('TOC');
+		jQuery('#buttons .button_fav').text('FAV');
+	} else {
+		jQuery('#buttons .button_toc').text('Table of Contents');
+		jQuery('#buttons .button_fav').text('Favourites');
+	}	
 });
 </script>
-    
-<script>
-jQuery(window).load( function() {
-	//$('.single_tab').show().jScrollPane({ autoReinitialise: true 	});
-	
-	/*var pane = jQuery('.single_tab');
 
-	var settings = { 
-		autoReinitialize: true 
-	}
-	pane.jScrollPane(settings);*/
-});
-</script>
 </html>
