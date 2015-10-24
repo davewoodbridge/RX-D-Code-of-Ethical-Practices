@@ -41,7 +41,7 @@
 	<header id="masthead" class="site-header" role="banner">
 		
         <div id="header_logo">
-        	<img src="<?php echo get_template_directory_uri(); ?>/images/logo_rxd.jpg" alt="RX&D Logo">
+        	<img src="<?php echo get_template_directory_uri(); ?>/images/logo_rxd_small.png" alt="RX&D Logo">
         </div>
         <hgroup>
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php _e('<!--:en-->RX&D Code of Ethical Practices<!--:--><!--:fr-->RX&D Code de pratiques éthiques<!--:-->'); ?></a></h1>
