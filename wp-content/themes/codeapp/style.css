@@ -6,7 +6,7 @@ Version: 1.0
 Author: Dave Woodbridge
 
 */
-html {
+html, #navigation {
 	min-width: 480px;
 }
 /* Fonts */
@@ -451,6 +451,7 @@ div#homepage_info {
 	float: left;
 }
 .homepage_right_top a, .homepage_right_bottom a {
+
 	color: #000;
 	text-decoration: none;
 	padding-top: 29px;
