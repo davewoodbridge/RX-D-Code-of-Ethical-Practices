@@ -659,10 +659,10 @@ h2.search_title a {
 @media only screen and (max-width: 480px) {
 
 	#header_logo img {
-		width: 100%;
+		width: 290px;
 	}	
 	#buttons .btn_small {
-		max-width: 20%;
+		max-width: 58px;
 	}
 	h1.site-title a, h1.site-title a:visited, h1.site-title a:hover {
 		display: block;
@@ -679,7 +679,7 @@ h2.search_title a {
 		margin-top: 19px;
 	}
 	input#s {
-		max-width: 50%;
+		max-width: 140px;
 	}
 	#toc a {
 		font-size: 16px;
