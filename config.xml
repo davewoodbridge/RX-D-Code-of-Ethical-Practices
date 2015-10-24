@@ -22,7 +22,7 @@
 	<icon src="icon_toc.png" platform="android" density="hdpi" />
 	<icon src="icon_toc.png" platform="android" density="xhdpi" />
 	
-	<content src="http://www.agameoftwohalves.com" />
+	<content src="http://codeapp.publissimo.ca" />
 	<access origin="*" subdomains="true" />	
 
 </widget>
