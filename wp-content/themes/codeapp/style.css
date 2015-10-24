@@ -6,7 +6,9 @@ Version: 1.0
 Author: Dave Woodbridge
 
 */
-
+html {
+	min-width: 480px;
+}
 /* Fonts */
 
 .hidden_text {
