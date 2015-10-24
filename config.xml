@@ -8,5 +8,5 @@
 	</author>
 	<content src="index.php" />
 	<access origin="*" />
-    <icon src="res/icon.png" />
+    <icon src="/wp-content/themes/codeapp/images/icon_toc.png" />
 </widget>
