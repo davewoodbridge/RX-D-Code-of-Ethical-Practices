@@ -6,7 +6,7 @@
 	<author email="dev@publisismo.ca" href="http://www.publissimo.ca">
 		Publissimo Inc.
 	</author>
-	<content src="index.php" />
+	<content src="index.html" />
 	<access origin="*" />
 	<!-- Default application icon -->
 	<icon src="icon_toc.png" />
