@@ -1,4 +1,4 @@
- <widget id="com.example.hello" version="0.0.1">
+ <widget id="com.example.hello" version="0.9.1">
 	<name>RX D Code of Ethical Practices</name>
 	<description>
 		The full and up-to-date RX D Code of Ethical Practices app.
@@ -9,3 +9,5 @@
 	<content src="index.php" />
 	<access origin="*" />
 </widget>
+
+<icon src="http://codeapp.publissimo.ca/wp-content/themes/codeapp/images/icon_toc.png" platform="ios" width="57" height="57" density="mdpi" />
