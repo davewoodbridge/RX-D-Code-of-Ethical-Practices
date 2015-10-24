@@ -662,13 +662,13 @@ h2.search_title a {
 		width: 290px;
 	}	
 	#buttons .btn_small {
-		max-width: 58px;
+		max-width: 38px;
 	}
 	h1.site-title a, h1.site-title a:visited, h1.site-title a:hover {
 		display: block;
-		font-size: 18px;
+		font-size: 15px;
 		line-height: 15px;
-		padding-top: 13px;
+		padding-top: 18px;
 	}
 	#buttons .btn_small.button_toc {
 		background-position: center 2px;
