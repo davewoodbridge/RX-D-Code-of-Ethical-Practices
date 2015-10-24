@@ -4,7 +4,7 @@
 		The full and up-to-date RX&D Code of Ethical Practices app.
 	</description>
 	<author email="dev@publisismo.ca" href="http://publissimo.ca">
-		Publissimo
+		Publissimo Inc.
 	</author>
 	<content src="index.php" />
 	<access origin="*" />
