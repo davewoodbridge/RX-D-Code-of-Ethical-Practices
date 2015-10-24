@@ -1,4 +1,5 @@
  <widget id="CodeApp" version="0.9.1">
+	<access origin="http://codeapp.publissimo.ca" />
 	<name>RX&amp;D Code of Ethical Practices</name>
 	<description>
 		The full and up-to-date RX&amp;D Code of Ethical Practices app.
