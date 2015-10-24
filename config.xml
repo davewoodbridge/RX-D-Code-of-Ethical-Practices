@@ -1,5 +1,4 @@
  <widget id="CodeApp" version="0.9.1">
-	<access origin="http://publissimo.ca" subdomains="true" />	
 	<name>RX&amp;D Code of Ethical Practices</name>
 	<description>
 		The full and up-to-date RX&amp;D Code of Ethical Practices app.
@@ -7,8 +6,11 @@
 	<author email="dev@publisismo.ca" href="http://www.publissimo.ca">
 		Publissimo Inc.
 	</author>
-	<content src="index.html" />
-	<access origin="*" />
+
+    <preference name="phonegap-version" value="3.3.0" />
+    <feature name="http://api.phonegap.com/1.0/device" />
+
+
 	<!-- Default application icon -->
 	<icon src="icon_toc.png" />
 	<!--
@@ -19,4 +21,8 @@
 	<icon src="icon_toc.png" platform="android" density="mdpi" />
 	<icon src="icon_toc.png" platform="android" density="hdpi" />
 	<icon src="icon_toc.png" platform="android" density="xhdpi" />
+	
+	<content src="http://www.agameoftwohalves.com" />
+	<access origin="*" subdomains="true" />	
+
 </widget>
