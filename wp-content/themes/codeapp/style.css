@@ -34,7 +34,7 @@ a:hover {
 	text-decoration: none !important;
 }
 h1, h1 a {
-	font-size: 20px;
+	font-size: 14px;
 	color: #007cc3;
 	text-decoration: none;
 }
@@ -662,7 +662,7 @@ h2.search_title a {
 		width: 290px;
 	}	
 	#buttons .btn_small {
-		max-width: 38px;
+		max-width: 58px;
 	}
 	h1.site-title a, h1.site-title a:visited, h1.site-title a:hover {
 		display: block;
