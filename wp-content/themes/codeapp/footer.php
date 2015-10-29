@@ -19,6 +19,20 @@ wp_footer(); ?>
 
 
 <script>
+var closeclicked = false;
+
+jQuery(document).ready( function() {
+	jQuery('.footnote_close').each( function() {
+		jQuery(this).attr('href','javascript:closeFootnote();');
+		
+	});
+});
+
+function closeFootnote() {
+	console.log('hi');
+	closeclicked = true;
+	jQuery('#footnotediv').fadeOut(250, function() { closeclicked = false; } );
+}
 jQuery(window).resize( function() {
 		console.log('moving');
 	if(jQuery(window).width() < 480) {
@@ -56,10 +70,13 @@ function showTab(section) {
 jQuery(document).ready( function() {
 	jQuery('.title_footnote').hover( 
 		function() {
-			jQuery(this).next('.title_footnote_content').fadeIn(100);
+			if(closeclicked != true) {
+				console.log('happening');
+				jQuery(this).next('.title_footnote_content').fadeIn(300);
+			}
 		}, 
 		function() {
-			jQuery(this).next('.title_footnote_content').fadeOut(700);
+			jQuery(this).next('.title_footnote_content').fadeOut(300);
 		} 
 	);
 	if(jQuery(window).width() < 480) {
