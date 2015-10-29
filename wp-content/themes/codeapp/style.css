@@ -620,7 +620,14 @@ div#footnote-list ol {
 	padding: 15px;
 }
 .footnote_close {
-	display: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 0px 7px 3px;
+    line-height: 18px;
+    text-decoration: none;
 }
 span.nav-previous {
 	float: left;
