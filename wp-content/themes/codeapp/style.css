@@ -617,15 +617,14 @@ div#footnote-list ol {
 	padding-left: 20px;
 }
 #footnotediv {
-	padding: 15px;
+	padding: 15px 30px 15px 15px !important;
 }
 .footnote_close {
     position: absolute;
-    top: 5px;
-    right: 5px;
-    border: 1px solid;
+    top: -15px;
+    right: -5px;
+	padding: 30px;
     border-radius: 15px;
-    padding: 0px 7px 3px;
     line-height: 18px;
     text-decoration: none;
 }
