@@ -63,3 +63,11 @@
     echo '<p>'.wpfp_clear_list_link().'</p>';
     echo "</div>";
     //wpfp_cookie_warning();
+	?>
+	<script>
+	jQuery(document).ready( function() {
+		if( jQuery('html').attr('lang') == "fr-FR") {
+			jQuery('a.wpfp-link').text('Ajoutez aux favouris');
+		}
+	});
+	</script>
