@@ -303,12 +303,12 @@ function code_details_content( $post ) {
 	echo '<label style="float:left;line-height:22px;width:260px;" for="code_chapter">';
 	   _e("Title Annotation:", 'code_chapter' );
 	echo '</label> ';
-	echo '<textarea style="width:400px;" id="code_title_annotation" name="code_title_annotation">' . $code_title_annotation . '</textarea>';
+	echo '<textarea style="width:600px;display:block;height: 100px;margin-bottom: 15px;" id="code_title_annotation" name="code_title_annotation">' . $code_title_annotation . '</textarea>';
 
 	echo '<label style="float:left;line-height:22px;width:260px;" for="code_chapter">';
 	   _e("Title Annotation (French):", 'code_chapter' );
 	echo '</label> ';
-	echo '<textarea style="width:400px;" id="code_title_annotation_fr" name="code_title_annotation_fr">' . $code_title_annotation_fr . '</textarea>';
+	echo '<textarea style="width:600px;display:block;height: 100px;margin-bottom: 15px;" id="code_title_annotation_fr" name="code_title_annotation_fr">' . $code_title_annotation_fr . '</textarea>';
 
 
 }

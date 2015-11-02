@@ -39,8 +39,15 @@
             <?php the_excerpt(); ?>
         </div><!-- .entry-summary -->
     <?php } else {
-			$code_title_annotation = get_post_meta( $post->ID, 'code_title_annotation', true );  
+			global $q_config;
+			$current_language = $q_config[language];
+			if($current_language == "en") {
+				$code_title_annotation = get_post_meta( $post->ID, 'code_title_annotation', true );  
+			} else {
+				$code_title_annotation = get_post_meta( $post->ID, 'code_title_annotation_fr', true );  
+			}
 			if($code_title_annotation) {
+				
 				$code_title_footnote = '<a class="title_footnote" href="#" id="refmark-99"><sup>1</sup></a><div class="title_footnote_content">' . $code_title_annotation . '</div>';
 			} else {
 				$code_title_footnote = "";
