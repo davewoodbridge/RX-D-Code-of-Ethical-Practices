@@ -1,0 +1,31 @@
+ <widget id="CodeApp" version="0.9.1">
+	<name>RX&amp;D Code of Ethical Practices</name>
+	<description>
+		The full and up-to-date RX&amp;D Code of Ethical Practices app.
+	</description>
+	<author email="dev@publisismo.ca" href="http://www.publissimo.ca">
+		Publissimo Inc.
+	</author>
+
+    <preference name="phonegap-version" value="3.3.0" />
+    <feature name="http://api.phonegap.com/1.0/device" />
+
+
+	<!-- Default application icon -->
+	<icon src="icon_toc.png" />
+	<!--
+		Default icon should work, but cordova don't overwrite
+		the default on all densities
+	-->
+	<icon src="icon_toc.png" platform="android" density="ldpi" />
+	<icon src="icon_toc.png" platform="android" density="mdpi" />
+	<icon src="icon_toc.png" platform="android" density="hdpi" />
+	<icon src="icon_toc.png" platform="android" density="xhdpi" />
+	
+	
+    <splash src="splash.png" />
+
+	<content src="http://codeapp.publissimo.ca" />
+	<access origin="*" subdomains="true" />	
+
+</widget>
